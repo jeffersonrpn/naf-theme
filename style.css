@@ -1,0 +1,64 @@
+.topbar {
+  background: #474747;
+  padding: 16px 25px;
+  margin-top: 0;
+  margin-left: -28px;
+  margin-bottom: 20px;
+  margin-right: -25px;
+  min-width: 700px;
+  height: 20px;
+}
+
+#user_info > a {
+    margin-left: 25px;
+    font-size: 11px !important;
+    color: #fff;
+    text-decoration: none;
+}
+#user_info > a:hover {
+    color: #90abf4;
+}
+.page-header > h2 {
+  display: none;
+}
+#splash .login {
+  background: #474747 url(img/naf.png) no-repeat center 10px;
+}
+.sidebar {
+  border: none;
+}
+h1.brand a {
+    background: url(img/naf.png) top left no-repeat;
+    display: block;
+    height: 140px;
+    margin-left: 34px;
+    margin-top: 70px;
+    background-size: contain;
+}
+.main_nav a {
+  width: 202px;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 0;
+}
+.main_nav a:hover {
+  color: #fff;
+}
+.main_nav a.active {
+  background: #90ABF4;
+  color: #fff;
+  border: none;
+}
+#local_identity_plugin_button {
+	background: gray;
+	border: 1px solid white;
+	height: 20px;
+}
+.sidebar > div.clearfix,
+.sidebar > h4 {
+  display: none;
+}
